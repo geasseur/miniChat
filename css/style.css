@@ -15,7 +15,7 @@ body{
   align-items: center;
 }
 
-#titreChat{
+.titreChat{
   width: 100%;
   background-color: rgb(142, 183, 244);
   height: 200px;
@@ -24,7 +24,7 @@ body{
   align-items: center;
 }
 
-#titreChat>img{
+.titreChat>img{
   width: 40%;
 }
 
@@ -122,4 +122,17 @@ h1{
   background-color: white;
 }
 
-.
+@media (min-width: 500px) {
+  .titreChat>img{
+    width: 20%;
+  }
+}
+
+@media (min-width: 800px) {
+  .titreChat>img{
+    width: 15%;
+  }
+  .imgEmoji{
+    width: 5%;
+  }
+}
