@@ -1,0 +1,125 @@
+body{
+  background-color: rgba(142, 183, 244, 0.52);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nom{
+  padding : 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titreChat{
+  width: 100%;
+  background-color: rgb(142, 183, 244);
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#titreChat>img{
+  width: 40%;
+}
+
+h1{
+  color:white;
+}
+
+#fenetreDiscussion{
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+#fenetreUtilisateur,#fenetreBot{
+  width: 45%;
+  margin: 0;
+  top : 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+#fenetreUtilisateur{
+  align-items: flex-end;
+}
+
+#fenetreBot{
+  align-items: flex-start;
+}
+
+#fenetreUtilisateur>p{
+  background-color: rgba(2, 115, 149, 0.52);
+  border-radius: 20px;
+  padding: 6px;
+  margin: 3px 5px;
+}
+
+#fenetreBot>p{
+  background-color: rgba(18, 207, 87, 0.3);
+  border-radius: 20px;
+  padding: 6px;
+  margin: 3px 5px;
+}
+
+#interfaceUtilisateur{
+  background-color: rgb(142, 183, 244);
+  width: 100%;
+}
+
+#portraitUtilisateur{
+  width: 50%;
+}
+
+#messageUtilisateur{
+  width: 90%;
+  margin: 10px 5%;
+}
+
+#envois{
+  width: 20%;
+  margin:10px 40%;
+}
+
+#entree{
+  position: absolute;
+  top: 0px;
+}
+
+#apparenceUtilisateur{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:20px 67% 20px 3%;
+}
+
+#listeEmoji{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin:10px 10px;
+}
+
+.imgEmoji{
+  width: 10%;
+  background-color: white;
+}
+
+.
