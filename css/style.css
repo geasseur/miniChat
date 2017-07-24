@@ -122,9 +122,39 @@ h1{
   background-color: white;
 }
 
+.messageBot{
+  background-color: rgba(18, 207, 87, 0.3);
+  border-radius: 20px;
+  padding: 6px;
+  margin: 3px 5px;
+}
+.messageBot img{
+  width: 30%;
+  display: inline-block;
+}
+
+.messageBot{
+  box-shadow: 2px 5px 10px #888888;
+}
+
+.titreChat{
+  box-shadow: 10px 20px 30px #888888;
+}
+#fenetreDiscussion{
+  box-shadow: 5px 5px 30px #888888;
+}
+#interfaceUtilisateur{
+  box-shadow: 10px -5px 30px #888888;
+}
+#fenetreUtilisateur p{
+  box-shadow: 2px 5px 5px #888888;
+}
 @media (min-width: 500px) {
   .titreChat>img{
     width: 20%;
+  }
+  .titreChat{
+    justify-content: center;
   }
 }
 
@@ -134,5 +164,12 @@ h1{
   }
   .imgEmoji{
     width: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body{
+    width: 80%;
+    margin: auto;
   }
 }

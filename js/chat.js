@@ -68,5 +68,5 @@ function preparationBot(){
 //le bot choisit une réponse et l'ajoute à sa fenetre de message
 function envoisMessageBot(){
   var random = Math.floor(Math.random()*tableauReponse.length);
-  $("#fenetreBot").append("<p>"+tableauReponse[random]+"</p>");
+  $("#fenetreBot").append("<div class='messageBot'><img src='http://cdn-elle.ladmedia.fr/var/plain_site/storage/images/media/images/hotesse/55732491-1-fre-FR/hotesse_large.jpg' alt='portrait'>"+"<i>BotSimplon</i> </br><b>"+tableauReponse[random]+"</b></div>");
 }
