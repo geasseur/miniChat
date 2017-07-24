@@ -7,12 +7,14 @@ body{
 }
 
 #nom{
+  margin-top: 30px;
   padding : 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 5px 50px black;
 }
 
 .titreChat{
@@ -82,6 +84,7 @@ h1{
 
 #portraitUtilisateur{
   width: 50%;
+  box-shadow: 5px 5px 20px black;
 }
 
 #messageUtilisateur{
@@ -120,6 +123,7 @@ h1{
 .imgEmoji{
   width: 10%;
   background-color: white;
+  box-shadow: 5px 5px 20px black;
 }
 
 .messageBot{
@@ -149,7 +153,7 @@ h1{
 #fenetreUtilisateur p{
   box-shadow: 2px 5px 5px #888888;
 }
-@media (min-width: 500px) {
+@media (min-width: 500px){
   .titreChat>img{
     width: 20%;
   }
